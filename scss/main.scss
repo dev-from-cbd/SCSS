@@ -611,6 +611,16 @@ main {
   }
 }
 
+.screenshots {
+  &-grid {
+    @include grid(2);
+
+    @include md {
+      @include grid(4);
+    }
+  }
+}
+
 .team {
   .container {
     @include sm {

@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS - Auricle Website</title>
+
+    <title>Contact :: HTML & SCSS</title>
+
     <!-- FONTAWESOME -->
     <link
       rel="stylesheet"
@@ -11,7 +13,11 @@
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
+    <!-- FONTAWESOME - end -->
+
     <link rel="stylesheet" href="../css/main.css" />
+
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.png" />
   </head>
   <body>
     <header>
@@ -26,7 +32,7 @@
           <li><a href="../index.html">Home</a></li>
           <li><a href="../pages/about.html">About</a></li>
           <li><a href="../pages/services.html">Service</a></li>
-          <li><a href="../pages/screenshoots.html">Screenshoots</a></li>
+          <li><a href="../pages/screenshots.html">Screenshots</a></li>
           <li><a href="../pages/pricing.html">Pricing</a></li>
           <li><a href="../pages/team.html">Team</a></li>
           <li><a href="../pages/contact.html" class="active">Contact</a></li>
@@ -41,7 +47,7 @@
         <li><a href="../index.html">Home</a></li>
         <li><a href="../pages/about.html">About</a></li>
         <li><a href="../pages/services.html">Service</a></li>
-        <li><a href="../pages/screenshoots.html">Screenshoots</a></li>
+        <li><a href="../pages/screenshots.html">Screenshots</a></li>
         <li><a href="../pages/pricing.html">Pricing</a></li>
         <li><a href="../pages/team.html">Team</a></li>
         <li><a href="../pages/contact.html">Contact</a></li>
@@ -56,9 +62,7 @@
       </section>
 
       <section class="contact">
-        <div id="map" class="google-map">
-          GOOGLE MAPS
-        </div>
+        <!-- <div id="map" class="google-map">GOOGLE MAPS</div> -->
         <div class="contact-form">
           <h1 class="section-title">Contact Us</h1>
           <p>
@@ -73,6 +77,17 @@
           <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
           <div class="btn">Send</div>
         </div>
+      </section>
+
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.2314335940764!2d115.85222891516128!3d-31.95461758122805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32bad5054c8d73%3A0xced6a89c3fbce73!2s125%20St%20Georges%20Terrace%2C%20Perth%20WA%206000!5e0!3m2!1sen!2sau!4v1632581263335!5m2!1sen!2sau"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
       </section>
     </main>
 
@@ -101,16 +116,16 @@
           <h3>Twitter Feed</h3>
           <p>
             <i class="fab fa-twitter"></i>
-            Creative_Talent - 26 minsTe invitamos a sequir la cta. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Cum iure possimus quae
-            vitae libero praesentium.
+            @ZimaCode - 26 minsTe invitamos a sequir la cta. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Cum iure possimus quae vitae
+            libero praesentium.
           </p>
           <br />
           <p>
             <i class="fab fa-twitter"></i>
-            Creative_Talent - 26 minsTe invitamos a sequir la cta. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Cum iure possimus quae
-            vitae libero praesentium.
+            @ZimaCode - 26 minsTe invitamos a sequir la cta. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Cum iure possimus quae vitae
+            libero praesentium.
           </p>
         </div>
 
@@ -166,7 +181,36 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>Created By: Practical Dev 2020</p>
+        <!-- <p>Created by Oleg Gribanov</p> -->
+
+        <p>
+          <span>
+            &copy; Developed by
+            <a
+              href="http://fb.com/darentacom"
+              title="Full stack developer Oleg Gribanov"
+              target="_blank"
+              >Oleg</a
+            >
+            <a
+              href="http://linkedin.com/in/neoguru"
+              title="Full stack developer Oleg Gribanov"
+              target="_blank"
+              >Gribanov</a
+            >
+          </span>
+
+          <span class="copyright__center-span">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-sass"></i>
+            <i class="fab fa-js-square"></i>
+            <i class="fab fa-gulp"></i>
+            <!-- <i class="fab fa-js"></i> -->
+          </span>
+
+          <span class="copyright__right-span"> 2021 </span>
+        </p>
       </div>
     </footer>
 
